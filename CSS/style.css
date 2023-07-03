@@ -1,0 +1,257 @@
+/*reset*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url(https://fonts.google.com/specimen/Lobster?preview.text=Bendita%20Corteza&preview.text_type=custom);
+
+/*Estilo Fondo*/
+body.fondoimg{
+    background-image: url(..//Media/fonfofondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+/*Estilos de header*/
+header.cabecera{
+        height: 350px;
+}
+
+#home{
+    background-image: url('../Media/Fondo.png');
+}
+
+#muebles{
+    background-image: url('../Media/fondomueble.jpeg');
+}
+
+#otros{
+    background-image: url('../Media/fondootro.jpeg');
+}
+
+#restauraciones{
+    background-image: url('../Media/fondoresta.jpeg');
+}
+
+#tablas{
+    background-image: url('../Media/fondotabla1.jpeg');
+}
+
+#home, #muebles, #otros, #restauraciones, #tablas{
+    background-size: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.cabecera h1{
+    color: #2e1f27;
+    font-size: 60px;
+    margin-left: 20px;
+    font-family: 'Lobster', cursive;    
+}
+
+.cabecera h2{
+    color: rgb(0, 16, 16);
+    font-size: 30px;  
+    margin-left: 20px;
+    font-family: 'Lobster', cursive;  
+    margin-top: 50px;
+}
+
+.cabecera span{
+    color: #f4c95d;
+}
+
+/*Estilo Bloque con comentario*/
+
+div.box{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #2e1f27;
+    border-bottom: 5px solid #2e1f27;
+    background-color: #a44200;
+    overflow: auto;
+    opacity: 70%;
+}
+
+h3{
+font-size: 40px;
+font-weight: bold;
+}
+
+/*Estilos navbar*/
+nav.navbarv{
+    /*height: 450px;
+    width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-evenly;
+    /*padding: 30px;*/
+    }
+
+.navbarv a{
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
+    color: bisque;
+    margin: 20px;   
+}
+
+.home{
+    background-image: url(../Media/home.jpeg);
+}
+
+.mueble{
+    background-image: url(../Media/Mueble.png);
+}
+
+.tabla{
+    background-image: url(../Media/tabla.jpeg);
+    }
+
+.resta{
+    background-image: url(../Media/Restaura.png);
+    }
+
+.otros{
+        background-image: url(../Media/otro.jpeg);
+}
+
+.home, .mueble, .tabla, .resta, .otros{
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: black;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    /*margin: 30px;*/
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+#checkbox-menu, label.menu{
+    display: none;
+}
+
+/*Estilo Sección Fotos*/
+
+section.boxfotos{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    align-items: center;
+    /*height: 450px;*/
+    }
+
+.contenedor-fotos{
+    font-weight: 600;
+    height: 200px;
+    width: 200px;
+    background-color: azure;
+    margin: 20px;
+    border: 1px solid;
+    background-position: center;
+}
+
+/*Estilos footer*/
+
+footer.footer{
+    border-top: 5px solid #2e1f27;
+    /*height: 500px;*/
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    }
+
+.footer p{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+div.pie{
+   width: 500px;
+}
+
+div label.label{ 
+    display: inline-block;
+    width: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+img{
+    height: 20px;
+    width: 30px;
+    background-color: none;
+}
+
+/*Grid*/
+
+/*.grid{
+    display: grid;
+    grid-template-columns: 300px repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    row-gap: 10px;
+    column-gap: 5px;
+    grid-template-areas: 
+    "cabecera cabecera cabecera"
+    "navbar box box"
+    "navbar boxfotos boxfotos"
+    "footer footer footer";
+}
+
+.cabecera{
+    grid-area: cabecera;
+}
+
+.box{
+    grid-area: box;
+}
+
+.boxfotos{
+    grid-area: boxfotos;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+/*Media Query*/
+
+@media screen and (max-width: 360px) {
+    nav.navbarv{display: none;}
+} /*{
+    .grid{
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: 
+        "cabecera cabecera cabecera"
+        "navbar navbar navbar"
+        "box box box"
+        "boxfotos boxfotos boxfotos"
+        "footer footer footer";
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: space-evenly;
+    }
+    .footer{
+        display: none;
+    }
+  }
