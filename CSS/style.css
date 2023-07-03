@@ -95,7 +95,7 @@ nav.navbarv, nav.navbarh{
 
 .navbarv a, .navbarh a{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 15px;
     text-decoration: none;
     color: bisque;
     margin: 20px;   
@@ -127,10 +127,9 @@ nav.navbarv, nav.navbarh{
     border-radius: 20px;
     border: 2px solid;
     border-color: black;
-    height: 250px;
-    width: 250px;
+    height: 150px;    
+    width: 150px;
     padding: 10px;
-    /*margin: 30px;*/
     box-sizing: border-box;
     background-size: cover;
 }
@@ -146,7 +145,6 @@ section.boxfotos{
     flex-wrap: wrap;
     align-content: space-evenly;
     align-items: center;
-    /*height: 450px;*/
     }
 
 .contenedor-fotos{
@@ -163,7 +161,6 @@ section.boxfotos{
 
 footer.footer{
     border-top: 5px solid #2e1f27;
-    /*height: 500px;*/
     width: 100%;
     display: flex;
     padding: 30px;
@@ -198,16 +195,15 @@ img{
 
 /*Grid*/
 
-/*.grid{
+.grid{
     display: grid;
-    grid-template-columns: 300px repeat(2, 1fr);
+    grid-template-columns: 200px repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
     row-gap: 10px;
-    column-gap: 5px;
     grid-template-areas: 
     "cabecera cabecera cabecera"
-    "navbar box box"
-    "navbar boxfotos boxfotos"
+    "navbarv box box"
+    "navbarv boxfotos boxfotos"
     "footer footer footer";
 }
 
@@ -224,7 +220,7 @@ img{
 }
 
 .navbar{
-    grid-area: navbar;
+    grid-area: navbarv;
 }
 
 .footer{
@@ -233,25 +229,37 @@ img{
 
 /*Media Query*/
 
+@media screen and (max-width: 600px) {
+    grid-template-columns: 130px repeat(2, 1fr);
+    nav.navbarv{display: none;}
+    nav.navbarh{display: flex;}
+    .home, .mueble, .tabla, .resta, .otros{
+        border-radius: 20px;
+        border: 2px solid;
+        border-color: black;
+        height: 120px;    
+        width: 120px;
+        padding: 5px;
+        box-sizing: border-box;
+        background-size: cover;
+    }
+    
+}
+
 @media screen and (max-width: 360px) {
     nav.navbarv{display: none;}
     nav.navbarh{display: flex;}
-} /*{
+
     .grid{
         grid-template-rows: repeat(5, auto);
         grid-template-areas: 
         "cabecera cabecera cabecera"
-        "navbar navbar navbar"
+        "navbarh navbarh navbarh"
         "box box box"
         "boxfotos boxfotos boxfotos"
         "footer footer footer";
     }
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: space-evenly;
-    }
+    
     .footer{
         display: none;
     }
