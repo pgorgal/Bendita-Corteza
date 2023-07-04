@@ -81,6 +81,8 @@ font-size: 40px;
 font-weight: bold;
 }
 
+div.sincol{display: none;}
+
 /*Estilos navbar*/
 nav.navbarv{
     display: flex;
@@ -183,6 +185,6 @@ img{
 /*Media Query*/
 
 @media screen and (max-width: 600px) {
-    nav.navbarv{display: none;}
-    nav.navbar{display: flex;}
+    nav.navbarv, div.col{display: none;}
+    nav.navbar, div.sincol{display: flex;}
 }
