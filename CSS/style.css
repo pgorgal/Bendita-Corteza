@@ -100,7 +100,7 @@ nav.navbarv, nav.navbarh{
     margin: 20px;   
 }
 
-.navbarh a{display: none;}
+nav.navbarh, .navbarh a, #checkbox-menu, label.checkbox-menu{display: none;}
 
 .home{
     background-image: url(../Media/home.jpeg);
@@ -131,10 +131,6 @@ nav.navbarv, nav.navbarh{
     padding: 10px;
     box-sizing: border-box;
     background-size: cover;
-}
-
-#checkbox-menu, label.checkbox-menu{
-    display: none;
 }
 
 /*Estilo Sección Fotos*/
