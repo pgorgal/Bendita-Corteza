@@ -202,6 +202,6 @@ img{
 }
 }
 @media screen and (max-width: 600px) {
-    nav.navbarv, div.col{display: none;}
+   nav.navbarv, #bloque {display: none;}
     nav.navbar, div.sincol{display: flex;}
 }
