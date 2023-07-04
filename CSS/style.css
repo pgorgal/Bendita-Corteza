@@ -169,6 +169,15 @@ footer.footer{
     padding: 30px;
     }
 
+.label{
+    float: left;
+}
+
+#nombre, #apellido, #email, #texto{
+    float: right;
+    margin-bottom: 5px;
+}
+
 .footer p{
     font-weight: bolder;
     font-size: 20px;
