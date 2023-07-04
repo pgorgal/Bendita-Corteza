@@ -90,7 +90,6 @@ nav.navbarv, nav.navbarh{
     flex-direction: column;
     align-items: center;
     align-content: space-evenly;
-    /*padding: 30px;*/
     }
 
 .navbarv a, .navbarh a{
@@ -134,7 +133,7 @@ nav.navbarv, nav.navbarh{
     background-size: cover;
 }
 
-#checkbox-menu, label.menu{
+#checkbox-menu, label.checkbox-menu{
     display: none;
 }
 
@@ -195,7 +194,7 @@ img{
 
 /*Grid*/
 
-.grid{
+/*.grid{
     display: grid;
     grid-template-columns: 200px repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
@@ -219,9 +218,14 @@ img{
     grid-area: boxfotos;
 }
 
-.navbar{
+.navbarv{
     grid-area: navbarv;
 }
+
+.navbarh{
+    grid-area: navbarh;
+}
+
 
 .footer{
     grid-area: footer;
@@ -229,8 +233,7 @@ img{
 
 /*Media Query*/
 
-@media screen and (max-width: 600px) {
-    grid-template-columns: 130px repeat(2, 1fr);
+/*@media screen and (max-width: 600px) {
     nav.navbarv{display: none;}
     nav.navbarh{display: flex;}
     .home, .mueble, .tabla, .resta, .otros{
@@ -242,23 +245,35 @@ img{
         padding: 5px;
         box-sizing: border-box;
         background-size: cover;
-    }
-    
 }
+.grid{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+    "cabecera cabecera cabecera"
+    "navbarv box box"
+    "navbarv box box"
+    "boxfotos boxfotos boxfotos"
+    }
+}    
 
 @media screen and (max-width: 360px) {
     nav.navbarv{display: none;}
-    nav.navbarh{display: flex;}
+    nav.navbarh{display: flexbox}
+
+    #checkbox-menu, label.checkbox-menu{
+        display: flex;
+    }
 
     .grid{
-        grid-template-rows: repeat(5, auto);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, auto);
         grid-template-areas: 
         "cabecera cabecera cabecera"
         "navbarh navbarh navbarh"
         "box box box"
         "boxfotos boxfotos boxfotos"
-        "footer footer footer";
-    }
+        }
     
     .footer{
         display: none;
