@@ -87,7 +87,7 @@ nav.navbarv{
     flex-direction: column;
     align-items: center;
     align-content: space-evenly;
-    }
+}
 
 nav.navbar{display: none;}
 
@@ -98,8 +98,6 @@ nav.navbar{display: none;}
     color: bisque;
     padding: 20px;
 }
-
-
 
 .home{
     background-image: url(../Media/home.jpeg);
@@ -193,49 +191,7 @@ img{
 
 /*Media Query*/
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     nav.navbarv{display: none;}
-    nav.navbarh{display: flex;}
-    .home, .mueble, .tabla, .resta, .otros{
-        border-radius: 20px;
-        border: 2px solid;
-        border-color: black;
-        height: 120px;    
-        width: 120px;
-        padding: 5px;
-        box-sizing: border-box;
-        background-size: cover;
+    nav.navbar{display: flex;}
 }
-.grid{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas: 
-    "cabecera cabecera cabecera"
-    "navbarv box box"
-    "navbarv box box"
-    "boxfotos boxfotos boxfotos"
-    }
-}    
-
-@media screen and (max-width: 360px) {
-    nav.navbarv{display: none;}
-    nav.navbarh{display: flexbox}
-
-    #checkbox-menu, label.checkbox-menu{
-        display: flex;
-    }
-
-    .grid{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: 
-        "cabecera cabecera cabecera"
-        "navbarh navbarh navbarh"
-        "box box box"
-        "boxfotos boxfotos boxfotos"
-        }
-    
-    .footer{
-        display: none;
-    }
-  }
