@@ -162,19 +162,14 @@ section.boxfotos{
 
 /*Estilos footer*/
 
-footer.footer{
+#footer{
     border-top: 5px solid #2e1f27;
     width: 100%;
-    display: flex;
+    display: inline;
     padding: 30px;
     }
 
-.label{
-    float: left;
-}
-
 #nombre, #apellido, #email, #texto{
-    float: right;
     margin-bottom: 5px;
 }
 

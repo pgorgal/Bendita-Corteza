@@ -61,7 +61,7 @@
                 <h3>Sobre mi</h3>
                 <p>Todo comenzó como parte de una pasión de trabajar con mis manos y con madera en particular. 
                     Lo que empezó siendo un hobby, hoy es un modesto emprendimiento regido por una misma visión, cada trabajo es hecho como si fuera para mí.</p>
-            </div>
+                </div>
         </section> 
 
         <div class="row sincol box">
@@ -70,31 +70,48 @@
                 Lo que empezó siendo un hobby, hoy es un modesto emprendimiento regido por una misma visión, cada trabajo es hecho como si fuera para mí.</p>
         </div>
 
-        <section class="boxfotos"></section>
-
         <section class="row">
-            <div class="col footer">
+            <div class="col footer" id="footer">
                 <p>Contacto</p>
                 <form action="url"></form>
                 <form action="#">
+                    <div class="row">
+                        <div class="col">
+                            <label class="label" for="nombre">Nombre</label>
+                        </div>
+                        <div class="col">
+                            <input class="inputpos" type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label class="label" for="apellido">Apellido</label>
+                        </div>
+                        <div class="col">
+                        <input class="inputpos" type="text" name="apellido" id="nombre" placeholder="Ingresá tu apellido">
+                        </div>
                     <div>
-                        <label class="label" for="nombre">Nombre</label>
-                        <input class="inputpos" type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre">
+                    <div class="row">
+                        <div class="col">
+                            <label class="label" for="email">Mail</label>
+                        </div>
+                        <div class="col">
+                            <input class="inputpos" type="email" name="email" id="email" placeholder="Ingresá tu correo">
+                        </div>
+                    <div>
+                    <div class="row">
+                        <div class="col">
+                            <textarea name="" id="texto" cols="35" rows="10" placeholder="Contanos que estás buscando y nos contactaremos lo antes posible"></textarea>
+                        </div>
                     </div>
                     <div>
-                        <label class="label" for="apellido">Apellido</label>
-                        <input class="inputpos" type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido">
-                    </div>
-                    <div>
-                        <label class="label" for="email">Mail</label>
-                        <input class="inputpos" type="email" name="email" id="email" placeholder="Ingresá tu correo">
-                    </div>
-                    <div>
-                        <textarea name="" id="texto" cols="35" rows="10" placeholder="Contanos que estás buscando y nos contactaremos lo antes posible"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" class="btn btn-primary mb-3">Enviar</button>
-                        <button type="reset" class="btn btn-primary mb-3">Borrar</button>
+                    <div class="row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                        </div>
+                        <div class="col">
+                            <button type="reset" class="btn btn-primary mb-3">Borrar</button>
+                        </div>
                     </div>        
                 </form>
             </div>
