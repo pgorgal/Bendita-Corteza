@@ -96,56 +96,60 @@
                       </div>
                 </div>
         </section> 
-       
-       
-        <section class="boxfotos">
-            <div class="contenedor-fotos">1</div>
-            <div class="contenedor-fotos">2</div>
-            <div class="contenedor-fotos">3</div>
-            <div class="contenedor-fotos">4</div>
-            <div class="contenedor-fotos">5</div>
-            <div class="contenedor-fotos">6</div>
-            <div class="contenedor-fotos">7</div>
-            <div class="contenedor-fotos">8</div>
-        </section>
-        <footer class="footer">
-            <div class="pie">
+    
+        <section class="row" id="footer">
+            <div class="col footer">
                 <p>Contacto</p>
                 <form action="url"></form>
                 <form action="#">
-                    <div>
-                        <label class="label" for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre">
-                    </div>
-                    <div>
-                        <label class="label" for="apellido">Apellido</label>
-                        <input type="text" name="apellido" id="apellido" placeholder="Ingresá tu apellido">
-                    </div>
-                    <div>
-                        <label class="label" for="email">Mail</label>
-                        <input type="email" name="email" id="email" placeholder="Ingresá tu correo">
-                    </div>
-                    <div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Contanos que estás buscando y nos contactaremos lo antes posible"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Borrar</button>
+                    <div class="container">
+                        <div class="row row-cols-2">
+                          <div class="col">
+                            <label class="label" for="nombre">Nombre</label>
+                          </div>
+                          <div class="col">
+                            <input class="inputpos" type="text" name="nombre" id="nombre" placeholder="Ingresá tu nombre">
+                          </div>
+                          <div class="col">
+                            <label class="label" for="apellido">Apellido</label>
+                          </div>
+                          <div class="col">
+                            <input class="inputpos" type="text" name="apellido" id="nombre" placeholder="Ingresá tu apellido">
+                          </div>
+                          <div class="col">
+                            <label class="label" for="email">Mail</label>
+                          </div>
+                          <div class="col">
+                            <input class="inputpos" type="email" name="email" id="email" placeholder="Ingresá tu correo">
+                          </div>
+                        </div>
+                        <div class="row">
+                            <textarea name="" id="texto" cols="20" rows="10" placeholder="Contanos que estás buscando y nos contactaremos lo antes posible"></textarea>
+                        </div>
+                        <div class="row row-cols-2">
+                           <div class="col">
+                            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                           </div>
+                           <div class="col">
+                            <button type="reset" class="btn btn-primary mb-3">Borrar</button>
+                           </div>
+                        </div>
                     </div>        
                 </form>
             </div>
-
-            <div class="pie">
+            <div class="col footer">
                 <p>Donde estamos</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.634538870629!2d-58.47317922437068!3d-34.638674672941754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9838f5fec81%3A0x43661089544a1d94!2sParque%20Avellaneda%2C%20Remedios%203201%2C%20C1406HCM%20CABA!5e0!3m2!1ses-419!2sar!4v1686257809444!5m2!1ses-419!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="pie">
+            <div class="col footer">
                 <p>Redes</p>
-                <img class="img" src="./Media/new-ig-icon-1.jpg" alt="Instagram">
+                <label for="Instagram"><i class='bx bxl-instagram-alt'></i></label>
                 <a href="https://instagram.com/bendita_corteza?igshid=NTc4MTIwNjQ2YQ==">Seguinos en Instagram: @Bendita_Corteza</a>
-                
-            </div>        
-        </footer>
-    </main>
-</body>            
+            </div>
+        </section>
+            
+    </main>   
+    <script src="./JS/popper.js"></script>
+    <script src="./JS/bootstrap.js"></script>
+    </body>
 </html>
