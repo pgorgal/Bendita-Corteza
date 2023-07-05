@@ -164,13 +164,13 @@ section.boxfotos{
 
 #footer{
     border-top: 5px solid #2e1f27;
-    width: 100%;
-    display: inline;
+    display: inline-flex;
     padding: 30px;
     }
 
 #nombre, #apellido, #email, #texto{
     margin-bottom: 5px;
+    margin-right: 100px;
 }
 
 .footer p{
