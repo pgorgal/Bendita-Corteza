@@ -173,6 +173,8 @@ section.boxfotos{
     margin-right: 100px;
 }
 
+label{font-weight: bold;}
+
 .footer p{
     font-weight: bolder;
     font-size: 20px;
