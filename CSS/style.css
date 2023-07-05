@@ -18,6 +18,11 @@ header.cabecera{
         height: 350px;
 }
 
+#Calesita{
+    height: 345px;
+    width: 700px;
+}
+
 #home{
     background-image: url('../Media/Fondo.png');
 }
@@ -34,11 +39,11 @@ header.cabecera{
     background-image: url('../Media/fondoresta.jpeg');
 }
 
-#tablas{
+/*#tablas{
     background-image: url('../Media/fondotabla1.jpeg');
-}
+}*/
 
-#home, #muebles, #otros, #restauraciones, #tablas{
+#home, #muebles, #otros, #restauraciones/*, #tablas*/{
     background-size: 700px;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +162,7 @@ nav.navbar a{font-weight: bolder;
 .card-img-top{
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 /*Estilos footer*/
@@ -208,6 +213,6 @@ img{
 }
 }
 @media screen and (max-width: 600px) {
-   nav.navbarv{display: none;}
+   nav.navbarv, #Disabled{display: none;}
     nav.navbar, div.sincol{display: flex;}
 }
