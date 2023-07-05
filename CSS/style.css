@@ -15,12 +15,19 @@
 
 /*Estilos de header*/
 header.cabecera{
-        height: 350px;
+        height: 370px;
+        width: 500px!important;
+        margin: auto;
+}
+
+.header_corousel{
+    position: absolute;
+    top: 20px;
 }
 
 #Calesita{
     height: 345px;
-    width: 700px;
+    width: 500px;
 }
 
 #home{
