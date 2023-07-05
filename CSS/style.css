@@ -34,23 +34,7 @@ header.cabecera{
     background-image: url('../Media/Fondo.png');
 }
 
-#muebles{
-    background-image: url('../Media/fondomueble.jpeg');
-}
-
-#otros{
-    background-image: url('../Media/fondootro.jpeg');
-}
-
-#restauraciones{
-    background-image: url('../Media/fondoresta.jpeg');
-}
-
-/*#tablas{
-    background-image: url('../Media/fondotabla1.jpeg');
-}*/
-
-#home, #muebles, #otros, #restauraciones/*, #tablas*/{
+#home{
     background-size: 700px;
     background-position: center;
     background-repeat: no-repeat;
