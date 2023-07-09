@@ -75,6 +75,10 @@ font-size: 40px;
 font-weight: bold;
 }
 
+.video-home{
+    height: 530px;
+}
+
 div.sincol{display: none;}
 
 /*Estilos navbar*/
