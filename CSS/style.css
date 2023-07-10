@@ -39,6 +39,7 @@ header.cabecera{
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 50px;
 }
 
 .cabecera h1{
