@@ -1,0 +1,16 @@
+/*Media Query*/
+
+@media screen and (max-width: 900px) {
+    .home, .mueble, .tabla, .resta, .otros{
+        width: 150px;
+        height: 150px;
+        padding: 30px;
+}
+    .navbarv a, .nav-item a{
+        font-size: 15px;
+}
+}
+@media screen and (max-width: 600px) {
+    nav.navbarv, #Disabled{display: none;}
+    nav.navbar, div.sincol{display: flex;}
+}
