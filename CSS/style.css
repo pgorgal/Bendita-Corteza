@@ -7,12 +7,57 @@
   text-decoration: none;
 }
 
-/*Estilo Fondo*/
 #fondoimg {
   background-image: url(..//Media/fonfofondo1.jpg);
   height: 100vh;
 }
 
+.clase-1 {
+  font-size: 1rem;
+}
+
+.clase-2 {
+  font-size: 2rem;
+}
+
+.clase-3 {
+  font-size: 3rem;
+}
+
+.clase-4 {
+  font-size: 4rem;
+}
+
+.clase-5 {
+  font-size: 5rem;
+}
+
+.clase-6 {
+  font-size: 6rem;
+}
+
+.clase-7 {
+  font-size: 7rem;
+}
+
+.clase-8 {
+  font-size: 8rem;
+}
+
+.clase-9 {
+  font-size: 9rem;
+}
+
+.clase-10 {
+  font-size: 10rem;
+}
+
+/*Donde:
+
+#variable: cualquier variable
+.clase: la clase a la que se la estoy aplicando
+atributo de css, ejemplo font-size y la operación matemática
+*/
 .wrapper {
   /*Estilos de header*/
   /*Estilo Bloque con comentario*/

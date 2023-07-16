@@ -1,16 +1,12 @@
 
 @import "partials/fonts.scss";
 @import "partials/reset.scss";
-
-/*Estilo Fondo*/
-#fondoimg{
-    background-image: url(..//Media/fonfofondo1.jpg);
-    height: 100vh;
-}
+@import "partials/condicionales.scss";
+@import "partials/bucle.scss";
 
 .wrapper{
     $color: #2e1f27;
-
+    
     /*Estilos de header*/
 header.cabecera{
     height: 370px;

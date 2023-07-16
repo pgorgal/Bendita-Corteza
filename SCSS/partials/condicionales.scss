@@ -1,0 +1,15 @@
+$fondo: "default";
+
+@if($fondo == "default"){
+    #fondoimg{
+        background-image: url(..//Media/fonfofondo1.jpg);
+        height: 100vh;
+    }
+}
+
+@if($fondo == "alter 1"){
+    #fondoimg{
+        background-image: url(..//Media/fondo3.jpg);
+        height: 100vh;
+    }
+}

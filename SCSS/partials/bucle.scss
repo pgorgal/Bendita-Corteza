@@ -1,0 +1,12 @@
+@for $variable from 1 through 10{
+    .clase-#{$variable}{
+        font-size: 1rem * $variable;
+    }
+}
+
+/*Donde:
+
+#variable: cualquier variable
+.clase: la clase a la que se la estoy aplicando
+atributo de css, ejemplo font-size y la operación matemática
+*/
