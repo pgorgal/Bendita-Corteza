@@ -5,44 +5,50 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-} /*Estilo Fondo*/
+}
+
+/*Estilo Fondo*/
 #fondoimg {
   background-image: url(..//Media/fonfofondo1.jpg);
   height: 100vh;
 }
 
-/*Estilos de header*/
-header.cabecera {
+.wrapper {
+  /*Estilos de header*/
+  /*Estilo Bloque con comentario*/
+  /*Estilos navbar*/
+  /*Estilo Sección Fotos*/
+  /*Estilos footer*/
+  /*Media Query*/
+}
+.wrapper header.cabecera {
   height: 370px;
   width: 500px !important;
   margin: auto;
 }
-header.cabecera h1 {
+.wrapper header.cabecera h1 {
   color: #2e1f27;
   font-size: 60px;
   font-family: "Lobster", cursive;
 }
-header.cabecera h2 {
+.wrapper header.cabecera h2 {
   color: rgb(0, 16, 16);
   font-size: 30px;
   font-family: "Lobster", cursive;
   margin-top: 50px;
 }
-header.cabecera span {
+.wrapper header.cabecera span {
   color: #f4c95d;
 }
-
-.header_corousel {
+.wrapper .header_corousel {
   position: absolute;
   top: 20px;
 }
-
-#Calesita {
+.wrapper #Calesita {
   height: 345px;
   width: 500px;
 }
-
-#home {
+.wrapper #home {
   background-image: url("../Media/Fondo.png");
   background-size: 700px;
   background-position: center;
@@ -50,9 +56,7 @@ header.cabecera span {
   display: flex;
   margin-bottom: 50px;
 }
-
-/*Estilo Bloque con comentario*/
-div.box {
+.wrapper div.box {
   font-weight: bolder;
   font-size: 20px;
   text-align: center;
@@ -61,35 +65,31 @@ div.box {
   background-color: #dcde8f;
   overflow: auto;
 }
-div.box h3 {
+.wrapper div.box h3 {
   font-size: 40px;
   font-weight: bold;
 }
-
-.video-home {
+.wrapper .video-home {
   height: 530px;
 }
-
-div.sincol {
+.wrapper div.sincol {
   display: none;
 }
-
-/*Estilos navbar*/
-nav.navbarv {
+.wrapper nav.navbarv {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: space-evenly;
+  margin-left: 15px;
 }
-nav.navbarv a {
+.wrapper nav.navbarv a {
   font-weight: bolder;
   font-size: 25px;
   text-decoration: none;
   color: bisque;
   padding: 20px;
 }
-
-nav.navbar {
+.wrapper nav.navbar {
   display: none;
   font-weight: bolder;
   font-size: 25px;
@@ -97,28 +97,22 @@ nav.navbar {
   color: #a44200;
   padding: 20px;
 }
-
-.home {
+.wrapper .home {
   background-image: url(../Media/home.jpeg);
 }
-
-.mueble {
+.wrapper .mueble {
   background-image: url(../Media/Mueble.png);
 }
-
-.tabla {
+.wrapper .tabla {
   background-image: url(../Media/tabla.jpeg);
 }
-
-.resta {
+.wrapper .resta {
   background-image: url(../Media/Restaura.png);
 }
-
-.otros {
+.wrapper .otros {
   background-image: url(../Media/otro.jpeg);
 }
-
-.home, .mueble, .tabla, .resta, .otros {
+.wrapper .home, .wrapper .mueble, .wrapper .tabla, .wrapper .resta, .wrapper .otros {
   border-radius: 20px;
   border: 2px solid;
   border-color: black;
@@ -130,69 +124,58 @@ nav.navbar {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-/*Estilo Sección Fotos*/
-#card {
+.wrapper #card {
   width: auto;
   margin: auto;
 }
-
-.card {
+.wrapper .card {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
   gap: 10px;
 }
-
-.card-img-top {
+.wrapper .card-img -top {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-/*Estilos footer*/
-#footer {
+.wrapper #footer {
   border-top: 5px solid #2e1f27;
   display: inline-flex;
   padding: 30px;
 }
-
-#nombre, #apellido, #email, #texto {
+.wrapper #nombre, .wrapper #apellido, .wrapper #email, .wrapper #texto {
   margin-bottom: 5px;
   margin-right: 100px;
 }
-
-label {
+.wrapper label {
   font-weight: bold;
 }
-
-div.footer p {
+.wrapper div.footer p {
   font-weight: bolder;
   font-size: 20px;
   margin-bottom: 10px;
 }
-div.footer a {
+.wrapper div.footer a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-
-/*Media Query*/
 @media screen and (max-width: 900px) {
-  .home, .mueble, .tabla, .resta, .otros {
+  .wrapper nav.navbarv a {
+    font-size: 18px;
+  }
+  .wrapper .home, .wrapper .mueble, .wrapper .tabla, .wrapper .resta, .wrapper .otros {
     width: 150px;
     height: 150px;
     padding: 30px;
   }
-  .navbarv a, .nav-item a {
-    font-size: 15px;
-  }
 }
 @media screen and (max-width: 600px) {
-  nav.navbarv, #Disabled {
+  .wrapper nav.navbarv, .wrapper #Disabled {
     display: none;
   }
-  nav.navbar, div.sincol {
+  .wrapper nav.navbar, .wrapper div.sincol {
     display: flex;
   }
 }
