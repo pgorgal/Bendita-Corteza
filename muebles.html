@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Muebles</title>
-    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+        <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body class="image-fluid" id="fondoimg">
     <br /><br />
@@ -19,21 +24,21 @@
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="..." class="d-block w-100" id="Calesita" alt="Imagen coming soon">
+                    <img src="./Media/mueble1.jpeg" class="d-block w-100" id="Calesita" alt="Imagen coming soon">
+                    <div class="header_corousel">
+                      <h1 class="texto animate__animated animate__fadeInDown">Bendita <span>Corteza</span></h1>
+                      <h2 class="animate__animated animate__fadeIn animate__delay-2s">Con buena madera</h2>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Media/mueble2.jpeg" class="d-block w-100" id="Calesita" alt="Imagen coming soon">
                     <div class="header_corousel">
                         <h1 class="texto">Bendita <span>Corteza</span></h1>
                         <h2>Con buena madera</h2>
                     </div>
                   </div>
                   <div class="carousel-item" data-bs-interval="3000">
-                    <img src="..." class="d-block w-100" id="Calesita" alt="Imagen coming soon">
-                    <div class="header_corousel">
-                        <h1 class="texto">Bendita <span>Corteza</span></h1>
-                        <h2>Con buena madera</h2>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="3000">
-                    <img src="..." class="d-block w-100" id="Calesita" alt="Imagen coming soon">
+                    <img src="./Media/mueble3.jpeg" class="d-block w-100" id="Calesita" alt="Imagen coming soon">
                     <div class="header_corousel">
                         <h1 class="texto">Bendita <span>Corteza</span></h1>
                         <h2>Con buena madera</h2>
@@ -98,36 +103,77 @@
                 </div>
                 <div class="row " id="card">
                     <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="Futura Imagen">
+                        <img src="./Media/rack.jpeg" class="card-img-top" alt="Futura Imagen">
                         <div class="card-body">
-                          <h5 class="card-title">Título</h5>
-                          <p class="card-text">Descripción</a>
+                          <h5 class="card-title">Rack de TV</h5>
+                          <p class="card-text">Confeccionado en hierro y madera de pino teñida color roble</a>
                           <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                       </div>
                       <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="Futura Imagen">
+                        <img src="./Media/Mueble.png" class="card-img-top" alt="Futura Imagen">
                         <div class="card-body">
-                          <h5 class="card-title">Título</h5>
-                          <p class="card-text">Descripción</a>
+                          <h5 class="card-title">Vanitory</h5>
+                          <p class="card-text">Hecho a medida en madera de pino teñida color cedro</a>
                           <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
                       </div>
                       <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="Futura Imagen">
+                        <img src="./Media/Muebles/gamer.jpeg" class="card-img-top" alt="Futura Imagen">
                         <div class="card-body">
-                          <h5 class="card-title">Título</h5>
-                          <p class="card-text">Descripción</a>
+                          <h5 class="card-title">Escritorio Gamer</h5>
+                          <p class="card-text">Armado en hierro y madera de Guayubira de 2 pulgadas</a>
                           <a href="#" class="btn btn-primary">Agregar al carrito</a>  
                         </div>
                       </div>
                       <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="Futura Imagen">
+                        <img src="./Media/Muebles/juegoraton.jpeg" class="card-img-top" alt="Futura Imagen">
                         <div class="card-body">
-                          <h5 class="card-title">Título</h5>
-                          <p class="card-text">Descripción</a>
+                          <h5 class="card-title">Juego de mesa ratona</h5>
+                          <p class="card-text">Mesita ratona y banquitos en hierro y pino</a>
                           <a href="#" class="btn btn-primary">Agregar al carrito</a>
                         </div>
+                      </div>
+                        <div class="card" style="width: 18rem;">
+                          <img src="./Media/Muebles/mesaguayu.jpeg" class="card-img-top" alt="Futura Imagen">
+                          <div class="card-body">
+                            <h5 class="card-title">Mesa Guayubira</h5>
+                            <p class="card-text">Hecha en hierro y madera de Guayubira</a>
+                            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                          </div>
+                        </div>
+                          <div class="card" style="width: 18rem;">
+                            <img src="./Media/Muebles/mesapetiribi.jpeg" class="card-img-top" alt="Futura Imagen">
+                            <div class="card-body">
+                              <h5 class="card-title">Mesa Petiribí</h5>
+                              <p class="card-text">Base en hierro y tabla de Petiribí de 2 pulgadas</a>
+                              <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                            </div>
+                          </div>
+                            <div class="card" style="width: 18rem;">
+                              <img src="./Media/Muebles/racktv.jpeg" class="card-img-top" alt="Futura Imagen">
+                              <div class="card-body">
+                                <h5 class="card-title">Rack de TV</h5>
+                                <p class="card-text">Montado sobre hierro y cubierto con madera de Paraiso</a>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                              <img src="./Media/Muebles/vanitory2.jpeg" class="card-img-top" alt="Futura Imagen">
+                              <div class="card-body">
+                                <h5 class="card-title">Vanitory</h5>
+                                <p class="card-text">Base recuperada de una antigüa máquina de coser y tapa de Quebracho Colorado</a>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 18rem;">
+                              <img src="./Media/Muebles/ratona.jpeg" class="card-img-top" alt="Futura Imagen">
+                              <div class="card-body">
+                                <h5 class="card-title">Mesa ratona</h5>
+                                <p class="card-text">Mesa ratona maciza confeccionada en pino</a>
+                                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                              </div>
+                            </div>
                       </div>
                 </div>
         </section> 
