@@ -43,6 +43,12 @@
   color: #2e1f27;
   font-family: "Lobster", cursive;
 }
+.wrapper header.cabecera .animate__animated.animate__fadeInDown {
+  --animate-duration: 0.9s;
+}
+.wrapper header.cabecera .animate__animated.animate__fadeIn {
+  --animate-delay: 0.5s;
+}
 .wrapper header.cabecera h2 {
   font-size: 30px;
   color: rgb(0, 16, 16);

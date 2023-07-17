@@ -7,8 +7,6 @@
 
 /*@include encabezado(1rem)*/
 
-
-
 .wrapper{
     $color: #2e1f27;
 
@@ -24,11 +22,20 @@ h1{
     font-family: 'Lobster', cursive;    
 }
 
+.animate__animated.animate__fadeInDown{
+    --animate-duration: 0.9s;
+}
+
+.animate__animated.animate__fadeIn{
+    --animate-delay: 0.5s;
+}
+
 h2{
     font-size: 30px;
     color: rgb(0, 16, 16);
     font-family: 'Lobster', cursive;  
     margin-top: 50px;
+    
 }
         
 span{
