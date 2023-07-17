@@ -78,10 +78,6 @@
   background-color: #dcde8f;
   overflow: auto;
 }
-.wrapper div.box:hover {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(124deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 51%, rgb(0, 212, 255) 87%);
-}
 .wrapper div.box h3 {
   font-size: 40px;
   font-weight: bold;
@@ -91,10 +87,6 @@
 }
 .wrapper div.sincol {
   display: none;
-}
-.wrapper div.sincol:hover {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(124deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 51%, rgb(0, 212, 255) 87%);
 }
 .wrapper nav.navbarv {
   display: flex;
@@ -160,6 +152,9 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.wrapper .card:hover {
+  transform: scale(1.1);
 }
 .wrapper #footer {
   border-top: 5px solid #2e1f27;

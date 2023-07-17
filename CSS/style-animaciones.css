@@ -1,0 +1,16 @@
+#card{
+    width: auto;
+    margin: auto;
+}
+
+.card{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    }
+
+.card-img   -top{
+    @include tamanios(100%,100%);
+    object-fit: cover;
+}
