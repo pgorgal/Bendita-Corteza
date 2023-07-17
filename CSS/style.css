@@ -12,80 +12,19 @@
   height: 100vh;
 }
 
-.clase-1 {
-  font-size: 1rem;
-}
-
-.clase-2 {
-  font-size: 2rem;
-}
-
-.clase-3 {
-  font-size: 3rem;
-}
-
-.clase-4 {
-  font-size: 4rem;
-}
-
-.clase-5 {
-  font-size: 5rem;
-}
-
-.clase-6 {
-  font-size: 6rem;
-}
-
-.clase-7 {
-  font-size: 7rem;
-}
-
-.clase-8 {
-  font-size: 8rem;
-}
-
-.clase-9 {
-  font-size: 9rem;
-}
-
-.clase-10 {
-  font-size: 10rem;
-}
-
-/*Donde:
-
-#variable: cualquier variable
-.clase: la clase a la que se la estoy aplicando
-atributo de css, ejemplo font-size y la operación matemática
-*/
-.clase-red {
-  color: red;
-}
-
-.clase-green {
-  color: green;
-}
-
-.clase-blue {
-  color: blue;
-}
-
-.btn-azul {
-  color: #0000ff;
-}
-
-.btn-rojo {
-  color: #ff0000;
-}
-
-.btn-verde {
-  color: #008000;
-}
-
-.btn-violeta {
-  color: #f4f4f4;
-}
-
+/*@import "partials/bucle.scss";*/
+/*@mixin encabezado($tamanio){
+    h1{
+        font-size: $tamanio;
+    }
+    h2{
+        font-size: $tamanio / 2;
+    }
+    h3{
+        font-size: $tamanio / 2 + 10;
+    }
+}*/
+/*@include encabezado(1rem)*/
 .wrapper {
   /*Estilos de header*/
   /*Estilo Bloque con comentario*/
@@ -100,18 +39,19 @@ atributo de css, ejemplo font-size y la operación matemática
   margin: auto;
 }
 .wrapper header.cabecera h1 {
-  color: #2e1f27;
   font-size: 60px;
+  color: #2e1f27;
   font-family: "Lobster", cursive;
 }
 .wrapper header.cabecera h2 {
-  color: rgb(0, 16, 16);
   font-size: 30px;
+  color: rgb(0, 16, 16);
   font-family: "Lobster", cursive;
   margin-top: 50px;
 }
 .wrapper header.cabecera span {
   color: #f4c95d;
+  -webkit-text-stroke: 1px #2e1f27;
 }
 .wrapper .header_corousel {
   position: absolute;
@@ -138,6 +78,10 @@ atributo de css, ejemplo font-size y la operación matemática
   background-color: #dcde8f;
   overflow: auto;
 }
+.wrapper div.box:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(124deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 51%, rgb(0, 212, 255) 87%);
+}
 .wrapper div.box h3 {
   font-size: 40px;
   font-weight: bold;
@@ -147,6 +91,10 @@ atributo de css, ejemplo font-size y la operación matemática
 }
 .wrapper div.sincol {
   display: none;
+}
+.wrapper div.sincol:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(124deg, rgb(2, 0, 36) 0%, rgb(9, 9, 121) 51%, rgb(0, 212, 255) 87%);
 }
 .wrapper nav.navbarv {
   display: flex;
@@ -160,14 +108,7 @@ atributo de css, ejemplo font-size y la operación matemática
   font-size: 25px;
   text-decoration: none;
   color: bisque;
-  padding: 20px;
-}
-.wrapper nav.navbar {
-  display: none;
-  font-weight: bolder;
-  font-size: 25px;
-  text-decoration: none;
-  color: #a44200;
+  -webkit-text-stroke: 1px #2e1f27;
   padding: 20px;
 }
 .wrapper .home {
@@ -197,6 +138,14 @@ atributo de css, ejemplo font-size y la operación matemática
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.wrapper nav.navbar {
+  display: none;
+  font-weight: bolder;
+  font-size: 25px;
+  text-decoration: none;
+  color: #a44200;
+  padding: 20px;
+}
 .wrapper #card {
   width: auto;
   margin: auto;
@@ -208,8 +157,8 @@ atributo de css, ejemplo font-size y la operación matemática
   gap: 10px;
 }
 .wrapper .card-img -top {
-  width: 100%;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 .wrapper #footer {

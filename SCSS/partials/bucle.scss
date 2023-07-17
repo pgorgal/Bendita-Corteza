@@ -1,5 +1,5 @@
-@for $variable from 1 through 10{
-    .clase-#{$variable}{
+@for $variable from 1 through 4{
+    .claseh#{$variable}{
         font-size: 1rem * $variable;
     }
 }

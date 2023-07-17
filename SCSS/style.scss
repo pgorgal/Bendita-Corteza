@@ -2,11 +2,16 @@
 @import "partials/fonts.scss";
 @import "partials/reset.scss";
 @import "partials/condicionales.scss";
-@import "partials/bucle.scss";
+/*@import "partials/bucle.scss";*/
+@import "partials/mixins.scss";
+
+/*@include encabezado(1rem)*/
+
+
 
 .wrapper{
     $color: #2e1f27;
-    
+
     /*Estilos de header*/
 header.cabecera{
     height: 370px;
@@ -14,20 +19,21 @@ header.cabecera{
     margin: auto;
 
 h1{
-    color: $color;
     font-size: 60px;
+    color: $color;
     font-family: 'Lobster', cursive;    
 }
 
 h2{
+    font-size: 30px;
     color: rgb(0, 16, 16);
-    font-size: 30px;  
     font-family: 'Lobster', cursive;  
     margin-top: 50px;
 }
         
 span{
     color: #f4c95d;
+    -webkit-text-stroke: 1px $color;
 }
 }
 
@@ -37,8 +43,7 @@ top: 20px;
 }
 
 #Calesita{
-height: 345px;
-width: 500px;
+@include tamanios(345px,500px)
 }
 
 #home{
@@ -60,7 +65,10 @@ div.box{
     border-top: 5px solid $color;
     background-color: #dcde8f;
     overflow: auto;
-    
+     &:hover{
+        background: rgb(2,0,36);
+        background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 87%);
+    };
 h3{
     font-size: 40px;
     font-weight: bold;
@@ -71,7 +79,13 @@ h3{
     height: 530px;
 }
 
-div.sincol{display: none;}
+div.sincol{
+    display: none;
+    &:hover{
+        background: rgb(2,0,36);
+        background: linear-gradient(124deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 87%);
+    };
+}
 
 /*Estilos navbar*/
 
@@ -81,23 +95,14 @@ nav.navbarv{
     align-items: center;
     align-content: space-evenly;
     margin-left: 15px;
-
 a{
     font-weight: bolder;
     font-size: 25px;
     text-decoration: none;
     color: bisque;
+    -webkit-text-stroke: 1px $color;
     padding: 20px;
 }
-}
-
-nav.navbar{
-    display: none;
-    font-weight: bolder;
-    font-size: 25px;
-    text-decoration: none;
-    color: #a44200;
-    padding: 20px;
 }
 
 .home{background-image: url(../Media/home.jpeg);}
@@ -114,13 +119,21 @@ nav.navbar{
     border-radius: 20px;
     border: 2px solid;
     border-color: black;
-    height: 200px;    
-    width: 200px;
+    @include tamanios(200px,200px);
     padding: 30px;
     box-sizing: border-box;
     background-size: cover;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+nav.navbar{
+    display: none;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    color: #a44200;
+    padding: 20px;
 }
 
 /*Estilo Sección Fotos*/
@@ -135,11 +148,10 @@ nav.navbar{
     margin-left: 10px;
     margin-right: 10px;
     gap: 10px;
-}
+    }
 
 .card-img   -top{
-    width: 100%;
-    height: 100%;
+    @include tamanios(100%,100%);
     object-fit: cover;
 }
 
@@ -173,4 +185,4 @@ a{
 }
 
 @import "partials/querys.scss";
-}
+}   
