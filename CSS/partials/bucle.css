@@ -45,5 +45,32 @@
 .clase: la clase a la que se la estoy aplicando
 atributo de css, ejemplo font-size y la operación matemática
 */
+.clase-red {
+  color: red;
+}
+
+.clase-green {
+  color: green;
+}
+
+.clase-blue {
+  color: blue;
+}
+
+.btn-azul {
+  color: #0000ff;
+}
+
+.btn-rojo {
+  color: #ff0000;
+}
+
+.btn-verde {
+  color: #008000;
+}
+
+.btn-violeta {
+  color: #f4f4f4;
+}
 
 /*# sourceMappingURL=bucle.css.map */

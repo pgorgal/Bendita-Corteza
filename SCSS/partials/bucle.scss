@@ -10,3 +10,22 @@
 .clase: la clase a la que se la estoy aplicando
 atributo de css, ejemplo font-size y la operación matemática
 */
+
+@each $color in red, green, blue{
+    .clase-#{$color}{
+        color: $color;
+    }
+}
+
+$btn-colors:(
+    azul: #0000ff,
+    rojo: #ff0000,
+    verde: #008000,
+    violeta: #f4f4f4,
+    );
+
+@each $btn-color, $color in $btn-colors{
+    .btn-#{$btn-color}{
+        color: #{$color};
+    }
+}
