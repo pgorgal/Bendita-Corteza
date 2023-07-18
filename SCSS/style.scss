@@ -22,8 +22,8 @@ header.cabecera{
     
 .animate__animated.animate__fadeIn{
     --animate-delay: 0.5s;
-} 
-    
+}        
+
 h1{
     font-size: 60px;
     color: $color;
@@ -34,8 +34,7 @@ h2{
     font-size: 30px;
     color: rgb(0, 16, 16);
     font-family: 'Lobster', cursive;  
-    margin-top: 50px;
-    
+    margin-top: 50px;   
 }
         
 span{
@@ -54,7 +53,7 @@ top: 20px;
 }
 
 #home{
-background-image: url('../Media/Fondo.png');
+background-image: url('../Media/index/Fondo.png');
 background-size: 700px;
 background-position: center;
 background-repeat: no-repeat;
@@ -97,6 +96,9 @@ a{
     color: bisque;
     -webkit-text-stroke: 1px $color;
     padding: 20px;
+    &:hover{
+        transform: scale(1.1);
+     }
 }
 }
 
@@ -127,10 +129,7 @@ a{
         color: bisque;
         -webkit-text-stroke: 1px $color;
         padding: 20px;
-&:hover{
-   transform: scale(1.1);
-}
-}
+    }
 }
 
 nav.navbar{

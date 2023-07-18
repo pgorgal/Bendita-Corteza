@@ -68,7 +68,7 @@
   width: 500px;
 }
 .wrapper #home {
-  background-image: url("../Media/Fondo.png");
+  background-image: url("../Media/index/Fondo.png");
   background-size: 700px;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,6 +109,9 @@
   -webkit-text-stroke: 1px #2e1f27;
   padding: 20px;
 }
+.wrapper nav.navbarv a:hover {
+  transform: scale(1.1);
+}
 .wrapper .home {
   background-image: url(../Media/home.jpeg);
 }
@@ -143,9 +146,6 @@
   color: bisque;
   -webkit-text-stroke: 1px #2e1f27;
   padding: 20px;
-}
-.wrapper .home a:hover, .wrapper .mueble a:hover, .wrapper .tabla a:hover, .wrapper .resta a:hover, .wrapper .otros a:hover {
-  transform: scale(1.1);
 }
 .wrapper nav.navbar {
   display: none;
