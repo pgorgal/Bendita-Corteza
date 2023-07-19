@@ -13,3 +13,20 @@ $fondo: "default";
         height: 100vh;
     }
 }
+
+/*Cards Size*/
+
+@import "variables";
+
+
+div{
+    @media screen and (min-width: Sdesktop){
+        .card{width: $grande;}
+        }    
+        @media screen and (max-width: #{$desktop - 1px}) and (min-width: $tablet){
+            .card{width: $mediano;}
+            }
+            @media screen and (max-width: $mobile){
+                .card{width: $chico;}
+                }
+}        

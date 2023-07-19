@@ -1,5 +1,7 @@
 /*Media Query*/
 
+@import "variables";
+
 @media screen and (max-width: 850px) {
     nav.navbarv a{font-size: 18px; 
     }
@@ -7,6 +9,7 @@
         @include tamanios(130px,130px);
         padding: 30px;    
     }    
+    div.card{width: $mediano;}
 }
 
 @media screen and (max-width: 600px) {
@@ -39,5 +42,5 @@
     
     nav.navbar, div.sincol{display: flex;}
 
-    div.card{width: 10rem;}
+    div.card{width: $chico;}
 }
