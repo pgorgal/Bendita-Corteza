@@ -1,11 +1,10 @@
 /*Media Query*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     nav.navbarv a{font-size: 18px; 
     }
     .home, .mueble, .tabla, .resta, .otros{
-        width: 150px;
-        height: 150px;
+        @include tamanios(130px,130px);
         padding: 30px;    
     }
     
