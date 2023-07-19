@@ -11,6 +11,32 @@
 }
 
 @media screen and (max-width: 600px) {
-    nav.navbarv, #Disabled{display: none;}
+    nav.navbarv, #Disabled,.header_corousel, #Calesita{display: none;}
     nav.navbar, div.sincol{display: flex;}
+    :hover{display: none;}
+        
+    #home{
+        background-image: url('../Media/Index/Fondo.png');
+        background-size: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        margin-bottom: 50px;
+        }
+    #otros{
+        @extend #home;
+        background-image: url('../Media/Index/Fondo.png');
+    }
+    #tablas{
+        @extend #home;
+        background-image: url('../Media/Index/Fondo.png');
+    }
+    #resta{
+        @extend #home;
+        background-image: url('../Media/Index/Fondo.png');
+    }
+    #mueble{
+        @extend #home;
+        background-image: url('../Media/Index/Fondo.png');
+    }
 }

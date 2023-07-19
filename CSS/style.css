@@ -56,14 +56,6 @@
   height: 345px;
   width: 500px;
 }
-.wrapper #home {
-  background-image: url("../Media/Index/Fondo.png");
-  background-size: 700px;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-  margin-bottom: 50px;
-}
 .wrapper div.box {
   font-weight: bolder;
   font-size: 20px;
@@ -199,11 +191,34 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper nav.navbarv, .wrapper #Disabled {
+  .wrapper nav.navbarv, .wrapper #Disabled, .wrapper .header_corousel, .wrapper #Calesita {
     display: none;
   }
   .wrapper nav.navbar, .wrapper div.sincol {
     display: flex;
+  }
+  .wrapper :hover {
+    display: none;
+  }
+  .wrapper #home, .wrapper #mueble, .wrapper #resta, .wrapper #tablas, .wrapper #otros {
+    background-image: url("../Media/Index/Fondo.png");
+    background-size: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper #otros {
+    background-image: url("../Media/Index/Fondo.png");
+  }
+  .wrapper #tablas {
+    background-image: url("../Media/Index/Fondo.png");
+  }
+  .wrapper #resta {
+    background-image: url("../Media/Index/Fondo.png");
+  }
+  .wrapper #mueble {
+    background-image: url("../Media/Index/Fondo.png");
   }
 }
 
