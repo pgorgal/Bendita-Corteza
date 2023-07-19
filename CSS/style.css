@@ -44,6 +44,9 @@
   margin-top: 50px;
   -webkit-text-stroke: 0.5px #f4c95d;
 }
+.wrapper header.cabecera .hide {
+  display: none;
+}
 .wrapper header.cabecera span {
   color: #f4c95d;
   -webkit-text-stroke: 1px #2e1f27;
@@ -199,15 +202,6 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper nav.navbarv, .wrapper #Disabled {
-    display: none;
-  }
-  .wrapper nav.navbar, .wrapper div.sincol {
-    display: flex;
-  }
-  .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample {
-    display: none;
-  }
   .wrapper .cabecera {
     background-image: url("../Media/Index/Fondo.png");
     background-size: 600px;
@@ -215,6 +209,14 @@
     background-repeat: no-repeat;
     display: flex;
     margin-bottom: 50px;
+  }
+  .wrapper .cabecera h1.hide {
+    display: flex;
+    margin-top: 20px;
+  }
+  .wrapper .cabecera h2.hide {
+    display: flex;
+    margin-top: 120px;
   }
   .wrapper #home {
     background-image: url("../Media/Index/Fondo.png");
@@ -230,6 +232,15 @@
   }
   .wrapper #mueble {
     background-image: url("../Media/Index/Fondo.png");
+  }
+  .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample {
+    display: none;
+  }
+  .wrapper nav.navbarv, .wrapper #Disabled {
+    display: none;
+  }
+  .wrapper nav.navbar, .wrapper div.sincol {
+    display: flex;
   }
 }
 
