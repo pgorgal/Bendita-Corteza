@@ -9,8 +9,7 @@
 
     /*Estilos de header*/
 header.cabecera{
-    height: 370px;
-    width: 500px!important;
+    @include tamanios(400px,600px!important);
     margin: auto;
 
 .animate__animated.animate__fadeInDown{
@@ -50,17 +49,8 @@ top: 20px;
 }
 
 #Calesita{    
-@include tamanios(345px,500px)
+@include tamanios(360px,600px)
 }
-
-#home{
-    background-image: url('../Media/Index/Fondo.png');
-    background-size: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
-    display: flex;
-    }
 
 /*Estilo Bloque con comentario*/
 

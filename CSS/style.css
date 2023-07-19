@@ -21,8 +21,8 @@
   /*Media Query*/
 }
 .wrapper header.cabecera {
-  height: 370px;
-  width: 500px !important;
+  height: 400px;
+  width: 600px !important;
   margin: auto;
 }
 .wrapper header.cabecera .animate__animated.animate__fadeInDown {
@@ -56,16 +56,8 @@
   top: 20px;
 }
 .wrapper #Calesita {
-  height: 345px;
-  width: 500px;
-}
-.wrapper #home {
-  background-image: url("../Media/Index/Fondo.png");
-  background-size: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin-bottom: 50px;
-  display: flex;
+  height: 360px;
+  width: 600px;
 }
 .wrapper div.box {
   font-weight: bolder;
