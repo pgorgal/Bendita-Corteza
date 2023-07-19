@@ -56,6 +56,14 @@
   height: 345px;
   width: 500px;
 }
+.wrapper #home {
+  background-image: url("../Media/Index/Fondo.png");
+  background-size: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+  display: flex;
+}
 .wrapper div.box {
   font-weight: bolder;
   font-size: 20px;
@@ -191,22 +199,25 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper nav.navbarv, .wrapper #Disabled, .wrapper .header_corousel, .wrapper #Calesita {
+  .wrapper nav.navbarv, .wrapper #Disabled {
     display: none;
   }
   .wrapper nav.navbar, .wrapper div.sincol {
     display: flex;
   }
-  .wrapper :hover {
+  .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample {
     display: none;
   }
-  .wrapper #home, .wrapper #mueble, .wrapper #resta, .wrapper #tablas, .wrapper #otros {
+  .wrapper .cabecera {
     background-image: url("../Media/Index/Fondo.png");
-    background-size: 700px;
+    background-size: 600px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     margin-bottom: 50px;
+  }
+  .wrapper #home {
+    background-image: url("../Media/Index/Fondo.png");
   }
   .wrapper #otros {
     background-image: url("../Media/Index/Fondo.png");

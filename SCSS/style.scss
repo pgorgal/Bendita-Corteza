@@ -51,6 +51,15 @@ top: 20px;
 @include tamanios(345px,500px)
 }
 
+#home{
+    background-image: url('../Media/Index/Fondo.png');
+    background-size: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    display: flex;
+    }
+
 /*Estilo Bloque con comentario*/
 
 div.box{

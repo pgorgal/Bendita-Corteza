@@ -1,0 +1,37 @@
+/*Media Query*/
+
+@media screen and (max-width: 800px) {
+    nav.navbarv a{font-size: 18px; 
+    }
+    .home, .mueble, .tabla, .resta, .otros{
+        width: 150px;
+        height: 150px;
+        padding: 30px;    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav.navbarv, #Disabled{display: none;}
+    nav.navbar, div.sincol{display: flex;}
+    
+    div.carousel, .slide, .carousel-inner, .carousel-item, #carouselExample{display: none;}
+        
+    .cabecera{
+        background-image: url('../Media/Index/Fondo.png');
+        background-size: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        margin-bottom: 50px;
+        }
+
+    #home{background-image: url('../Media/Index/Fondo.png');}
+    
+    #otros{background-image: url('../Media/Index/Fondo.png');}
+    
+    #tablas{background-image: url('../Media/Index/Fondo.png');}
+    
+    #resta{background-image: url('../Media/Index/Fondo.png');}
+   
+    #mueble{background-image: url('../Media/Index/Fondo.png');}
+}
