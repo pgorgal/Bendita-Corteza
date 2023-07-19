@@ -174,12 +174,15 @@
   display: inline-flex;
   padding: 30px;
 }
-.wrapper #nombre, .wrapper #apellido, .wrapper #email, .wrapper #texto, .wrapper #contame {
+.wrapper .form-control {
   margin-bottom: 5px;
   margin-right: 100px;
 }
 .wrapper label {
   font-weight: bold;
+}
+.wrapper button {
+  justify-content: center;
 }
 .wrapper div.footer p {
   font-weight: bolder;
@@ -190,6 +193,10 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+.wrapper div.footer iframe.mapa {
+  height: 300px;
+  width: 300px;
 }
 @media screen and (max-width: 800px) {
   .wrapper nav.navbarv a {

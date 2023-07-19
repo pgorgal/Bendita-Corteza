@@ -148,7 +148,7 @@ nav.navbar{
 #card{
     width: auto;
     margin: auto;
-    justify-content:center
+    justify-content:center;
 }
 
 .card{
@@ -177,12 +177,14 @@ nav.navbar{
     padding: 30px;
     }
 
-#nombre, #apellido, #email, #texto, #contame{
+.form-control{
     margin-bottom: 5px;
     margin-right: 100px;
 }
 
 label{font-weight: bold;}
+
+button{justify-content:center;}
 
 div.footer{
 p{
@@ -196,6 +198,7 @@ a{
     color: black;
     font-weight: bold;
 }
+iframe.mapa{height: 300px; width: 300px}
 }
 
 @import "partials/querys.scss";
