@@ -222,16 +222,16 @@
     background-image: url("../Media/Index/Fondo.png");
   }
   .wrapper #otros {
-    background-image: url("../Media/Index/Fondo.png");
+    background-image: url("../Media/fondootro.jpeg");
   }
   .wrapper #tablas {
-    background-image: url("../Media/Index/Fondo.png");
+    background-image: url("../Media/fondotabla.jpeg");
   }
   .wrapper #resta {
-    background-image: url("../Media/Index/Fondo.png");
+    background-image: url("../Media/fondoresta.jpeg");
   }
   .wrapper #mueble {
-    background-image: url("../Media/Index/Fondo.png");
+    background-image: url("../Media/fondomueble.jpeg");
   }
   .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample {
     display: none;
