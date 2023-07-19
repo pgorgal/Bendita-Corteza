@@ -24,14 +24,16 @@ header.cabecera{
 h1{
     font-size: 60px;
     color: $color;
-    font-family: 'Lobster', cursive;    
+    font-family: 'Lobster', cursive; 
+    -webkit-text-stroke: 1px #f4c95d;   
 }
 
 h2{
     font-size: 30px;
-    color: rgb(0, 16, 16);
+    color: $color;
     font-family: 'Lobster', cursive;  
-    margin-top: 50px;   
+    margin-top: 50px;
+    -webkit-text-stroke: 0.5px #f4c95d;   
 }
         
 span{
@@ -144,6 +146,7 @@ nav.navbar{
 #card{
     width: auto;
     margin: auto;
+    justify-content:center
 }
 
 .card{
@@ -172,7 +175,7 @@ nav.navbar{
     padding: 30px;
     }
 
-#nombre, #apellido, #email, #texto{
+#nombre, #apellido, #email, #texto, #contame{
     margin-bottom: 5px;
     margin-right: 100px;
 }

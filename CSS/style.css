@@ -12,17 +12,6 @@
   height: 100vh;
 }
 
-/*@mixin encabezado($tamanio){
-    h1{
-        font-size: $tamanio;
-    }
-    h2{
-        font-size: $tamanio / 2;
-    }
-    h3{
-        font-size: $tamanio / 2 + 10;
-    }
-}*/
 .wrapper {
   /*Estilos de header*/
   /*Estilo Bloque con comentario*/
@@ -46,12 +35,14 @@
   font-size: 60px;
   color: #2e1f27;
   font-family: "Lobster", cursive;
+  -webkit-text-stroke: 1px #f4c95d;
 }
 .wrapper header.cabecera h2 {
   font-size: 30px;
-  color: rgb(0, 16, 16);
+  color: #2e1f27;
   font-family: "Lobster", cursive;
   margin-top: 50px;
+  -webkit-text-stroke: 0.5px #f4c95d;
 }
 .wrapper header.cabecera span {
   color: #f4c95d;
@@ -157,6 +148,7 @@
 .wrapper #card {
   width: auto;
   margin: auto;
+  justify-content: center;
 }
 .wrapper .card {
   margin-bottom: 10px;
@@ -179,7 +171,7 @@
   display: inline-flex;
   padding: 30px;
 }
-.wrapper #nombre, .wrapper #apellido, .wrapper #email, .wrapper #texto {
+.wrapper #nombre, .wrapper #apellido, .wrapper #email, .wrapper #texto, .wrapper #contame {
   margin-bottom: 5px;
   margin-right: 100px;
 }
@@ -196,7 +188,7 @@
   color: black;
   font-weight: bold;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .wrapper nav.navbarv a {
     font-size: 18px;
   }
