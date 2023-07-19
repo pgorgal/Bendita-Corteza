@@ -238,6 +238,9 @@
   .wrapper nav.navbarv, .wrapper #Disabled {
     display: none;
   }
+  .wrapper div.Disabled {
+    display: none;
+  }
   .wrapper nav.navbar, .wrapper div.sincol {
     display: flex;
   }
