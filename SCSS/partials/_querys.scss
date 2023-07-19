@@ -6,8 +6,7 @@
     .home, .mueble, .tabla, .resta, .otros{
         @include tamanios(130px,130px);
         padding: 30px;    
-    }
-    
+    }    
 }
 
 @media screen and (max-width: 600px) {
@@ -35,6 +34,10 @@
     div.carousel, .slide, .carousel-inner, .carousel-item, #carouselExample{display: none;}
     
     nav.navbarv, #Disabled{display: none;}
+    
     div.Disabled{display: none;}
+    
     nav.navbar, div.sincol{display: flex;}
+
+    div.card{width: 10rem;}
 }

@@ -150,6 +150,7 @@
   margin-left: 10px;
   margin-right: 10px;
   gap: 10px;
+  width: 18rem;
 }
 .wrapper .card-img -top {
   height: 100%;
@@ -243,6 +244,9 @@
   }
   .wrapper nav.navbar, .wrapper div.sincol {
     display: flex;
+  }
+  .wrapper div.card {
+    width: 10rem;
   }
 }
 
