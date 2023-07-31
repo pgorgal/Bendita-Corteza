@@ -3,7 +3,6 @@
 @import "partials/condicionales.scss";
 @import "partials/mixins.scss";
 @import "partials/variables.scss";
-@import "partials/querys.scss";
 
 .wrapper {
 
@@ -224,4 +223,6 @@
             width: 300px
         }
     }
+
+    @import "partials/querys.scss";
 }
