@@ -119,10 +119,10 @@
   transform: scale(1.1);
 }
 .wrapper .home {
-  background-image: url(../Media/home.jpeg);
+  background-image: url(./Media/home.jpeg);
 }
 .wrapper .mueble {
-  background-image: url(../Media/Mueble.png);
+  background-image: url(/Media/Mueble.png);
 }
 .wrapper .tabla {
   background-image: url(../Media/tabla.jpeg);
