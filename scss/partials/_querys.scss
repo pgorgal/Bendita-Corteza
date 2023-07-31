@@ -21,7 +21,6 @@
         margin-bottom: 50px;
         h1.hide{display: flex; margin-top: 20px;}
         h2.hide{display: flex; margin-top: 120px;}
-        nav.navbar {display: flex;}
         }
 
     #home{background-image: url('./media/index/fondo.png');}
@@ -34,13 +33,9 @@
    
     #mueble{background-image: url('./media/fondomueble.jpeg');}
 
-    div.carousel, .slide, .carousel-inner, .carousel-item, #carouselExample{display: none;}
+    div.carousel, .slide, .carousel-inner, .carousel-item, #carouselExample, nav.navbarv, #Disabled, div.Disabled{display: none;}
     
-    nav.navbarv, #Disabled{display: none;}
-    
-    div.Disabled{display: none;}
-    
-    div.sincol{display: flex;} 
+    nav.navbar, div.sincol{display: flex;} 
 
     div.card{width: $chico;}
 }
