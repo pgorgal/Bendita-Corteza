@@ -103,7 +103,7 @@
     }
 
     .home {
-        background-image: url(./media/home.jpeg);
+        background-image: url(media/home.jpeg);
     }
 
     .mueble {
@@ -111,15 +111,15 @@
     }
 
     .tabla {
-        background-image: url(../media/tabla.jpeg);
+        background-image: url(./media/tabla.jpeg);
     }
 
     .resta {
-        background-image: url(../media/restaura.png);
+        background-image: url(.../media/restaura.png);
     }
 
     .otros {
-        background-image: url(../media/otro.jpeg);
+        background-image: url(..//media/otro.jpeg);
     }
 
     .home,
@@ -143,7 +143,7 @@
             text-decoration: none;
             color: bisque;
             -webkit-text-stroke: 1px $color;
-            padding: 20px;
+            padding: 15px;
         }
     }
 

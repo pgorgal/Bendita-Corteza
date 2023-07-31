@@ -8,7 +8,7 @@
 }
 
 #fondoimg {
-  background-image: url(../Media/fonfofondo1.jpg);
+  background-image: url(../media/fonfofondo1.jpg);
   height: 100vh;
 }
 
@@ -33,14 +33,73 @@
 
 /*Card size*/
 /*Color*/
+/*Media Query*/ /*Card size*/
+/*Color*/
+@media screen and (max-width: 850px) {
+  nav.navbarv a {
+    font-size: 18px;
+  }
+  .home, .mueble, .tabla, .resta, .otros {
+    height: 130px;
+    width: 130px;
+    padding: 30px;
+  }
+  div.card {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cabecera {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .cabecera h1.hide {
+    display: flex;
+    margin-top: 20px;
+  }
+  .cabecera h2.hide {
+    display: flex;
+    margin-top: 120px;
+  }
+  #home {
+    background-image: url("../media/index/fondo.png");
+  }
+  #otros {
+    background-image: url("../media/fondootro.jpeg");
+  }
+  #tablas {
+    background-image: url("../media/fondotabla.jpeg");
+  }
+  #resta {
+    background-image: url("../media/fondoresta.jpeg");
+  }
+  #mueble {
+    background-image: url("../media/fondomueble.jpeg");
+  }
+  div.carousel, .slide, .carousel-inner, .carousel-item, #carouselExample {
+    display: none;
+  }
+  nav.navbarv, #Disabled {
+    display: none;
+  }
+  div.Disabled {
+    display: none;
+  }
+  nav.navbar, div.sincol {
+    display: flex;
+  }
+  div.card {
+    width: 14rem;
+  }
+}
 .wrapper {
   /*Estilos de header*/
   /*Estilo Bloque con comentario*/
   /*Estilos navbar*/
   /*Estilo Sección Fotos*/
   /*Estilos footer*/
-  /*Media Query*/ /*Card size*/
-  /*Color*/
 }
 .wrapper header.cabecera {
   height: 400px;
@@ -119,21 +178,25 @@
   transform: scale(1.1);
 }
 .wrapper .home {
-  background-image: url(./Media/home.jpeg);
+  background-image: url(media/home.jpeg);
 }
 .wrapper .mueble {
-  background-image: url(/Media/Mueble.png);
+  background-image: url(/media/mueble.png);
 }
 .wrapper .tabla {
-  background-image: url(..//Media/tabla.jpeg);
+  background-image: url(./media/tabla.jpeg);
 }
 .wrapper .resta {
-  background-image: url(../Media/Restaura.png);
+  background-image: url(.../media/restaura.png);
 }
 .wrapper .otros {
-  background-image: url(../Media/otro.jpeg);
+  background-image: url(..//media/otro.jpeg);
 }
-.wrapper .home, .wrapper .mueble, .wrapper .tabla, .wrapper .resta, .wrapper .otros {
+.wrapper .home,
+.wrapper .mueble,
+.wrapper .tabla,
+.wrapper .resta,
+.wrapper .otros {
   border-radius: 20px;
   border: 2px solid;
   border-color: black;
@@ -145,13 +208,17 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.wrapper .home a, .wrapper .mueble a, .wrapper .tabla a, .wrapper .resta a, .wrapper .otros a {
+.wrapper .home a,
+.wrapper .mueble a,
+.wrapper .tabla a,
+.wrapper .resta a,
+.wrapper .otros a {
   font-weight: bolder;
   font-size: 25px;
   text-decoration: none;
   color: bisque;
   -webkit-text-stroke: 1px #2e1f27;
-  padding: 20px;
+  padding: 15px;
 }
 .wrapper nav.navbar {
   display: none;
@@ -212,67 +279,6 @@
 .wrapper div.footer iframe.mapa {
   height: 300px;
   width: 300px;
-}
-@media screen and (max-width: 850px) {
-  .wrapper nav.navbarv a {
-    font-size: 18px;
-  }
-  .wrapper .home, .wrapper .mueble, .wrapper .tabla, .wrapper .resta, .wrapper .otros {
-    height: 130px;
-    width: 130px;
-    padding: 30px;
-  }
-  .wrapper div.card {
-    width: 15rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .wrapper .cabecera {
-    background-image: url("../Media/Index/Fondo.png");
-    background-size: 600px;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    margin-bottom: 50px;
-  }
-  .wrapper .cabecera h1.hide {
-    display: flex;
-    margin-top: 20px;
-  }
-  .wrapper .cabecera h2.hide {
-    display: flex;
-    margin-top: 120px;
-  }
-  .wrapper #home {
-    background-image: url("../Media/Index/Fondo.png");
-  }
-  .wrapper #otros {
-    background-image: url("../Media/fondootro.jpeg");
-  }
-  .wrapper #tablas {
-    background-image: url("../Media/fondotabla.jpeg");
-  }
-  .wrapper #resta {
-    background-image: url("../Media/fondoresta.jpeg");
-  }
-  .wrapper #mueble {
-    background-image: url("../Media/fondomueble.jpeg");
-  }
-  .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample {
-    display: none;
-  }
-  .wrapper nav.navbarv, .wrapper #Disabled {
-    display: none;
-  }
-  .wrapper div.Disabled {
-    display: none;
-  }
-  .wrapper nav.navbar, .wrapper div.sincol {
-    display: flex;
-  }
-  .wrapper div.card {
-    width: 14rem;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
