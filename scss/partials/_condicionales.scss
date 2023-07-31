@@ -2,14 +2,14 @@ $fondo: "default";
 
 @if($fondo == "default"){
     #fondoimg{
-        background-image: url(/media/fonfondo1.jpg);
+        background-image: url(./media/fonfondo1.jpg);
         height: 100vh;
     }
 }
 
 @if($fondo == "alter 1"){
     #fondoimg{
-        background-image: url(/media/fondo3.jpg);
+        background-image: url(./media/fondo3.jpg);
         height: 100vh;
     }
 }
