@@ -125,7 +125,7 @@
   background-image: url(/Media/Mueble.png);
 }
 .wrapper .tabla {
-  background-image: url(../Media/tabla.jpeg);
+  background-image: url(..//Media/tabla.jpeg);
 }
 .wrapper .resta {
   background-image: url(../Media/Restaura.png);
