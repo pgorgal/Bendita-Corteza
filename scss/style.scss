@@ -1,8 +1,9 @@
-@import "partials/fonts.scss";
-@import "partials/reset.scss";
-@import "partials/condicionales.scss";
-@import "partials/mixins.scss";
-@import "partials/variables.scss";
+@import "partials/_fonts.scss";
+@import "partials/_reset.scss";
+@import "partials/_condicionales.scss";
+@import "partials/_mixins.scss";
+@import "partials/_variables.scss";
+@import "partials/_querys.scss";
 
 .wrapper {
 
@@ -223,6 +224,4 @@
             width: 300px
         }
     }
-
-    @import "partials/querys.scss";
 }
