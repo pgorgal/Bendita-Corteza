@@ -2,7 +2,7 @@ $fondo: "default";
 
 @if($fondo == "default"){
     #fondoimg{
-        background-image: url(/media/fonfofondo1.jpg);
+        background-image: url(../media/fonfofondo1.jpg);
         height: 100vh;
     }
 }
