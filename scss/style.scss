@@ -1,9 +1,9 @@
-@import "partials/_fonts.scss";
-@import "partials/_reset.scss";
-@import "partials/_condicionales.scss";
-@import "partials/_mixins.scss";
-@import "partials/_variables.scss";
-@import "partials/_querys.scss";
+@import "partials/fonts.scss";
+@import "partials/reset.scss";
+@import "partials/condicionales.scss";
+@import "partials/mixins.scss";
+@import "partials/variables.scss";
+@import "partials/querys.scss";
 
 .wrapper {
 
@@ -103,11 +103,11 @@
     }
 
     .home {
-        background-image: url(../media/home.jpeg);
+        background-image: url(./media/home.jpeg);
     }
 
     .mueble {
-        background-image: url(../media/mueble.png);
+        background-image: url(/media/mueble.png);
     }
 
     .tabla {
