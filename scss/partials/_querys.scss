@@ -21,6 +21,7 @@
         margin-bottom: 50px;
         h1.hide{display: flex; margin-top: 20px;}
         h2.hide{display: flex; margin-top: 120px;}
+        nav.navbar {display: flex;}
         }
 
     #home{background-image: url('./media/index/fondo.png');}
@@ -39,7 +40,7 @@
     
     div.Disabled{display: none;}
     
-    nav.navbar, div.sincol{display: flex;}
+    div.sincol{display: flex;} 
 
     div.card{width: $chico;}
 }
