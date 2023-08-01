@@ -53,26 +53,13 @@
 .wrapper header.cabecera .animate__animated.animate__fadeIn {
   --animate-delay: 0.5s;
 }
-.wrapper header.cabecera h1 {
+.wrapper header.cabecera h1, .wrapper header.cabecera p.hi {
   font-size: 60px;
   color: #2e1f27;
   font-family: "Lobster", cursive;
   -webkit-text-stroke: 1.5px #f4c95d;
 }
-.wrapper header.cabecera h2 {
-  font-size: 30px;
-  color: #2e1f27;
-  font-family: "Lobster", cursive;
-  margin-top: 50px;
-  -webkit-text-stroke: 0.7px #f4c95d;
-}
-.wrapper header.cabecera p.hi {
-  font-size: 60px;
-  color: #2e1f27;
-  font-family: "Lobster", cursive;
-  -webkit-text-stroke: 1.5px #f4c95d;
-}
-.wrapper header.cabecera p.hii {
+.wrapper header.cabecera h2, .wrapper header.cabecera p.hii {
   font-size: 30px;
   color: #2e1f27;
   font-family: "Lobster", cursive;
@@ -219,7 +206,7 @@
 .wrapper button {
   justify-content: center;
 }
-.wrapper div.footer p {
+.wrapper div.footer p, .wrapper div.footer a.p {
   font-weight: bolder;
   font-size: 20px;
   margin-bottom: 10px;

@@ -19,29 +19,14 @@
             --animate-delay: 0.5s;
         }
 
-        h1 {
+        h1, p.hi {
             font-size: 60px;
             color: $color;
             font-family: 'Lobster', cursive;
             -webkit-text-stroke: 1.5px #f4c95d;
         }
 
-        h2 {
-            font-size: 30px;
-            color: $color;
-            font-family: 'Lobster', cursive;
-            margin-top: 50px;
-            -webkit-text-stroke: 0.7px #f4c95d;
-        }
-
-        p.hi{
-            font-size: 60px;
-            color: $color;
-            font-family: 'Lobster', cursive;
-            -webkit-text-stroke: 1.5px #f4c95d;
-        }
-
-        p.hii {
+        h2, p.hii {
             font-size: 30px;
             color: $color;
             font-family: 'Lobster', cursive;
@@ -220,7 +205,7 @@
     }
 
     div.footer {
-        p {
+        p, a.p {
             font-weight: bolder;
             font-size: 20px;
             margin-bottom: 10px;
