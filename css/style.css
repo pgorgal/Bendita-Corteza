@@ -33,73 +33,14 @@
 
 /*Card size*/
 /*Color*/
-/*Media Query*/ /*Card size*/
-/*Color*/
-@media screen and (max-width: 850px) {
-  nav.navbarv a {
-    font-size: 18px;
-  }
-  .home, .mueble, .tabla, .resta, .otros {
-    height: 130px;
-    width: 130px;
-    padding: 30px;
-  }
-  div.card {
-    width: 15rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .cabecera {
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    margin-bottom: 50px;
-  }
-  .cabecera h1.hide {
-    display: flex;
-    margin-top: 20px;
-  }
-  .cabecera h2.hide {
-    display: flex;
-    margin-top: 120px;
-  }
-  #home {
-    background-image: url("../media/index/fondo.png");
-  }
-  #otros {
-    background-image: url("../media/fondootro.jpeg");
-  }
-  #tablas {
-    background-image: url("../media/fondotabla.jpeg");
-  }
-  #resta {
-    background-image: url("../media/fondoresta.jpeg");
-  }
-  #mueble {
-    background-image: url("../media/fondomueble.jpeg");
-  }
-  div.carousel, .slide, .carousel-inner, .carousel-item, #carouselExample {
-    display: none;
-  }
-  nav.navbarv, #Disabled {
-    display: none;
-  }
-  div.Disabled {
-    display: none;
-  }
-  nav.navbar, div.sincol {
-    display: flex;
-  }
-  div.card {
-    width: 14rem;
-  }
-}
 .wrapper {
   /*Estilos de header*/
   /*Estilo Bloque con comentario*/
   /*Estilos navbar*/
   /*Estilo Sección Fotos*/
   /*Estilos footer*/
+  /*Media Query*/ /*Card size*/
+  /*Color*/
 }
 .wrapper header.cabecera {
   height: 400px;
@@ -279,6 +220,59 @@
 .wrapper div.footer iframe.mapa {
   height: 300px;
   width: 300px;
+}
+@media screen and (max-width: 850px) {
+  .wrapper nav.navbarv a {
+    font-size: 18px;
+  }
+  .wrapper .home, .wrapper .mueble, .wrapper .tabla, .wrapper .resta, .wrapper .otros {
+    height: 130px;
+    width: 130px;
+    padding: 30px;
+  }
+  .wrapper div.card {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .cabecera {
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  .wrapper .cabecera h1.hide {
+    display: flex;
+    margin-top: 20px;
+  }
+  .wrapper .cabecera h2.hide {
+    display: flex;
+    margin-top: 120px;
+  }
+  .wrapper #home {
+    background-image: url("./media/index/fondo.png");
+  }
+  .wrapper #otros {
+    background-image: url("./media/fondootro.jpeg");
+  }
+  .wrapper #tablas {
+    background-image: url("./media/fondotabla.jpeg");
+  }
+  .wrapper #resta {
+    background-image: url("./media/fondoresta.jpeg");
+  }
+  .wrapper #mueble {
+    background-image: url("./media/fondomueble.jpeg");
+  }
+  .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample, .wrapper nav.navbarv, .wrapper #Disabled, .wrapper div.Disabled {
+    display: none;
+  }
+  .wrapper nav.navbar, .wrapper div.sincol {
+    display: flex;
+  }
+  .wrapper div.card {
+    width: 14rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
