@@ -269,6 +269,7 @@
   }
   .wrapper nav.navbar, .wrapper div.sincol {
     display: flex;
+    width: 100%;
   }
   .wrapper div.card {
     width: 14rem;
