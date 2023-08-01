@@ -250,19 +250,19 @@
     margin-top: 120px;
   }
   .wrapper #home {
-    background-image: url("//media/index/fondo.png");
+    background-image: url("/media/index/fondo.png");
   }
   .wrapper #otros {
-    background-image: url("//media/fondootro.jpeg");
+    background-image: url("/media/fondootro.jpeg");
   }
   .wrapper #tablas {
-    background-image: url("//media/fondotabla.jpeg");
+    background-image: url("/media/fondotabla.jpeg");
   }
   .wrapper #resta {
-    background-image: url("//media/fondoresta.jpeg");
+    background-image: url("/media/fondoresta.jpeg");
   }
   .wrapper #mueble {
-    background-image: url("//media/fondomueble.jpeg");
+    background-image: url("/media/fondomueble.jpeg");
   }
   .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample, .wrapper nav.navbarv, .wrapper #Disabled, .wrapper div.Disabled {
     display: none;
