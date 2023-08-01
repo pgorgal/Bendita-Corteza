@@ -66,6 +66,19 @@
   margin-top: 50px;
   -webkit-text-stroke: 0.7px #f4c95d;
 }
+.wrapper header.cabecera p.h1 {
+  font-size: 60px;
+  color: #2e1f27;
+  font-family: "Lobster", cursive;
+  -webkit-text-stroke: 1.5px #f4c95d;
+}
+.wrapper header.cabecera p.h2 {
+  font-size: 30px;
+  color: #2e1f27;
+  font-family: "Lobster", cursive;
+  margin-top: 50px;
+  -webkit-text-stroke: 0.7px #f4c95d;
+}
 .wrapper header.cabecera .hide {
   display: none;
 }
