@@ -249,19 +249,19 @@
     display: flex;
     margin-top: 120px;
   }
-  .wrapper #home {
+  .wrapper .cabecera #home {
     background-image: url("/media/index/fondo.png");
   }
-  .wrapper #otros {
+  .wrapper .cabecera #otros {
     background-image: url("./media/fondootro.jpeg");
   }
-  .wrapper #tablas {
+  .wrapper .cabecera #tablas {
     background-image: url("../media/fondotabla.jpeg");
   }
-  .wrapper #resta {
+  .wrapper .cabecera #resta {
     background-image: url("..//media/fondoresta.jpeg");
   }
-  .wrapper #mueble {
+  .wrapper .cabecera #mueble {
     background-image: url("...//media/fondomueble.jpeg");
   }
   .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample, .wrapper nav.navbarv, .wrapper #Disabled, .wrapper div.Disabled {
