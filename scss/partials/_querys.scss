@@ -25,7 +25,12 @@
     .cabecera {
         height: 350px;
         position: relative;
-        display: inline-block;    
+        display: inline-block;  
+        
+        .foto {
+            @include tamanios(250px, 250px);
+            float: right;
+        }
 
         h1.hide {
             display: flex;
