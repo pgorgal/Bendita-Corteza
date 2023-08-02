@@ -241,6 +241,9 @@
     display: flex;
     margin-bottom: 50px;
   }
+  .wrapper .cabecera img.hide {
+    display: flex;
+  }
   .wrapper .cabecera h1.hide {
     display: flex;
     margin-top: 20px;
