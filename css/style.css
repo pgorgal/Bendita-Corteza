@@ -238,7 +238,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper .cabecerachica {
+  .wrapper .cabecer {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,15 +246,18 @@
     display: inline-block;
     margin-bottom: 50px;
   }
-  .wrapper .cabecerachica h1.hide {
+  .wrapper .cabecer h1.hide {
     position: absolute;
     display: flex;
     margin-top: 20px;
   }
-  .wrapper .cabecerachica h2.hide {
+  .wrapper .cabecer h2.hide {
     position: absolute;
     display: flex;
     margin-top: 120px;
+  }
+  .wrapper .cabecer #home {
+    background-image: url(/media/index/fondo.png);
   }
   .wrapper div.carousel,
   .wrapper .slide,
