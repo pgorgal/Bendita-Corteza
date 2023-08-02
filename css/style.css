@@ -249,21 +249,6 @@
     display: flex;
     margin-top: 120px;
   }
-  .wrapper .cabecera #home {
-    background-image: url("/media/index/fondo.png");
-  }
-  .wrapper .cabecera #otros {
-    background-image: url("./media/fondootro.jpeg");
-  }
-  .wrapper .cabecera #tablas {
-    background-image: url("../media/fondotabla.jpeg");
-  }
-  .wrapper .cabecera #resta {
-    background-image: url("..//media/fondoresta.jpeg");
-  }
-  .wrapper .cabecera #mueble {
-    background-image: url("...//media/fondomueble.jpeg");
-  }
   .wrapper div.carousel, .wrapper .slide, .wrapper .carousel-inner, .wrapper .carousel-item, .wrapper #carouselExample, .wrapper nav.navbarv, .wrapper #Disabled, .wrapper div.Disabled {
     display: none;
   }
