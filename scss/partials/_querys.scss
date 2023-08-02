@@ -27,10 +27,7 @@
         position: relative;
         display: inline-block;  
         
-        .foto {
-            @include tamanios(250px, 250px);
-            float: right;
-        }
+        .foto {float: right;}
 
         h1.hide {
             display: flex;

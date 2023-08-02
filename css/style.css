@@ -244,8 +244,6 @@
     display: inline-block;
   }
   .wrapper .cabecera .foto {
-    height: 250px;
-    width: 250px;
     float: right;
   }
   .wrapper .cabecera h1.hide {
