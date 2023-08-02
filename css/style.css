@@ -248,15 +248,15 @@
     display: inline-block;
     position: relative;
   }
-  .wrapper .cabecera div.overlay h1.hide {
+  .wrapper .cabecera h1.hide {
     position: absolute;
-    display: inline-block;
-    top: 20px;
+    display: flex;
+    top: 30px;
   }
-  .wrapper .cabecera div.overlay h2.hide {
+  .wrapper .cabecera h2.hide {
     position: absolute;
-    display: inline-block;
-    top: 90px;
+    display: flex;
+    top: 120px;
   }
   .wrapper div.carousel,
   .wrapper .slide,

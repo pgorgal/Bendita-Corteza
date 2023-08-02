@@ -32,18 +32,16 @@
             position: relative;
         }
 
-        div.overlay {
-            h1.hide {
-                position: absolute;
-                display: inline-block;
-                top: 20px;
-            }
+        h1.hide {
+            position: absolute;
+            display: flex;
+            top: 30px;
+        }
 
-            h2.hide {
-                position: absolute;
-                display: inline-block;
-                top: 90px;
-            }
+        h2.hide {
+            position: absolute;
+            display: flex;
+            top: 120px;
         }
     }
 
