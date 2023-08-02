@@ -25,9 +25,7 @@
     .cabecera {
         height: 350px;
         position: relative;
-        display: inline-block;
-        margin-bottom: 50px;
-        
+        display: inline-block;    
 
         h1.hide {
             display: flex;
@@ -36,7 +34,7 @@
 
         h2.hide {
             display: flex;
-            margin-top: 120px;
+            margin-top: 80px;
         }
     }
 
