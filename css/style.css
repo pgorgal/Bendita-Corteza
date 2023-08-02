@@ -238,7 +238,7 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper .cabecera {
+  .wrapper .cabecerachica {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -246,15 +246,12 @@
     display: inline-block;
     margin-bottom: 50px;
   }
-  .wrapper .cabecera img.hide {
-    display: inline-block;
-  }
-  .wrapper .cabecera h1.hide {
+  .wrapper .cabecerachica h1.hide {
     position: absolute;
     display: flex;
     margin-top: 20px;
   }
-  .wrapper .cabecera h2.hide {
+  .wrapper .cabecerachica h2.hide {
     position: absolute;
     display: flex;
     margin-top: 120px;

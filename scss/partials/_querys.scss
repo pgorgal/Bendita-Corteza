@@ -22,17 +22,14 @@
 }
 
 @media screen and (max-width: 600px) {
-    .cabecera {
+    .cabecerachica {
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         position: relative;
         display: inline-block;
         margin-bottom: 50px;
-
-        img.hide {
-            display: inline-block;
-        }
+        
 
         h1.hide {
             position: absolute;
