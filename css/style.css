@@ -247,7 +247,7 @@
     margin-bottom: 50px;
   }
   .wrapper .cabecera img.hide {
-    display: flex;
+    display: inline-block;
   }
   .wrapper .cabecera h1.hide {
     position: absolute;
