@@ -238,19 +238,18 @@
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper #cabecera {
-    width: 100%;
-    /*background-position: center;
-    background-repeat: no-repeat;*/
+  .wrapper .chico {
     position: relative;
-    display: flex;
+    display: inline-block;
     margin-bottom: 50px;
   }
-  .wrapper #cabecera h1.hide {
+  .wrapper .chico h1.hide {
+    position: absolute;
     display: flex;
     margin-top: 20px;
   }
-  .wrapper #cabecera h2.hide {
+  .wrapper .chico h2.hide {
+    position: absolute;
     display: flex;
     margin-top: 120px;
   }
