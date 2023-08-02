@@ -27,14 +27,23 @@
         position: relative;
         display: inline-block;
 
-        h1.hide {
-            position: absolute;
+        img.hide {
             display: inline-block;
-            top: 20px;
+            position: relative;
         }
 
-        h2.hide {
-            position: absolute
+        div.overlay {
+            h1.hide {
+                position: absolute;
+                display: inline-block;
+                top: 20px;
+            }
+
+            h2.hide {
+                position: absolute;
+                display: inline-block;
+                top: 90px;
+            }
         }
     }
 
