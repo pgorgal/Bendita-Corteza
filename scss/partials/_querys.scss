@@ -23,11 +23,9 @@
 
 @media screen and (max-width: 600px) {
     .cabecera {
-        height: 350px;
+        height: 350px !important;
         position: relative;
-        display: inline-block;  
-        
-        .foto {float: left;}
+        display: inline-block;
 
         h1.hide {
             display: flex;

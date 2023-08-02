@@ -239,12 +239,9 @@
 }
 @media screen and (max-width: 600px) {
   .wrapper .cabecera {
-    height: 350px;
+    height: 350px !important;
     position: relative;
     display: inline-block;
-  }
-  .wrapper .cabecera .foto {
-    float: left;
   }
   .wrapper .cabecera h1.hide {
     display: flex;
