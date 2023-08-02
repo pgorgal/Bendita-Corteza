@@ -29,14 +29,13 @@
 
         h1.hide {
             position: absolute;
-            display: flex;
+            display: inline-block;
             top: 20px;
         }
 
         h2.hide {
             position: absolute
-            display: flex;
-            top: 80px;
+            
         }
     }
 
