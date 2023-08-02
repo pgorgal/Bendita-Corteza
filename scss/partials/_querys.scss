@@ -28,16 +28,16 @@
         display: inline-block;
 
         h1.hide {
+            position: absolute;
             display: flex;
             margin-top: 20px;
         }
 
         h2.hide {
+            position: absolute
             display: flex;
             margin-top: 80px;
         }
-
-        #home{background-image: url(/media/index/fondo.png);}
     }
 
     div.carousel,
