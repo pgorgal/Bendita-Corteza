@@ -251,6 +251,9 @@
     display: flex;
     margin-top: 80px;
   }
+  .wrapper .cabecera #home {
+    background-image: url(/media/index/fondo.png);
+  }
   .wrapper div.carousel,
   .wrapper .slide,
   .wrapper .carousel-inner,
