@@ -204,7 +204,10 @@
   border-radius: 50px;
   position: fixed;
   bottom: 50px;
-  right: 25px;
+  right: 135px;
+}
+.wrapper #whatsapp:hover {
+  transform: scale(1.2);
 }
 .wrapper #footer {
   border-top: 5px solid #2e1f27;
@@ -251,6 +254,9 @@
   .wrapper div.card {
     width: 15rem;
   }
+  .wrapper #whatsapp {
+    right: 30px;
+  }
 }
 @media screen and (max-width: 600px) {
   .wrapper .cabecera {
@@ -289,6 +295,9 @@
   }
   .wrapper div.card {
     width: 14rem;
+  }
+  .wrapper #whatsapp {
+    right: 30px;
   }
 }
 

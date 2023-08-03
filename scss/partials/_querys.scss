@@ -19,6 +19,10 @@
     div.card {
         width: $mediano;
     }
+
+    #whatsapp {
+        right: 30px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -64,5 +68,9 @@
 
     div.card {
         width: $chico;
+    }
+
+    #whatsapp {
+        right: 30px;
     }
 }

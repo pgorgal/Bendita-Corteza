@@ -194,7 +194,10 @@
         border-radius: 50px;
         position: fixed;
         bottom: 50px;
-        right: 25px;
+        right: 135px;
+        &:hover {
+            transform: scale(1.2);
+        }
     }
 
     /*Estilos footer*/
