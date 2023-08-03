@@ -238,7 +238,7 @@
   height: 300px;
   width: 300px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .wrapper nav.navbarv a {
     font-size: 18px;
   }
@@ -258,7 +258,7 @@
     right: 30px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .wrapper .cabecera {
     height: 350px !important;
     position: relative;
