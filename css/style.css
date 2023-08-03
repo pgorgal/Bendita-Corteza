@@ -54,20 +54,23 @@
 .wrapper header.cabecera .animate__animated.animate__fadeIn {
   --animate-delay: 0.5s;
 }
-.wrapper header.cabecera h1, .wrapper header.cabecera p.hi {
+.wrapper header.cabecera h1,
+.wrapper header.cabecera p.hi {
   font-size: 60px;
   color: #2e1f27;
   font-family: "Lobster", cursive;
   -webkit-text-stroke: 1.5px #f4c95d;
 }
-.wrapper header.cabecera h2, .wrapper header.cabecera p.hii {
+.wrapper header.cabecera h2,
+.wrapper header.cabecera p.hii {
   font-size: 30px;
   color: #2e1f27;
   font-family: "Lobster", cursive;
   margin-top: 50px;
   -webkit-text-stroke: 0.7px #f4c95d;
 }
-.wrapper header.cabecera .hide, .wrapper header.cabecera div.overlay {
+.wrapper header.cabecera .hide,
+.wrapper header.cabecera div.overlay {
   display: none;
 }
 .wrapper header.cabecera span {
@@ -191,6 +194,15 @@
   transform: scale(1.05);
   background: #2e1f27;
   background: linear-gradient(150deg, rgb(136, 54, 2) 0%, rgb(255, 165, 66) 49%, rgb(252, 176, 69) 68%, rgb(221, 143, 35) 88%, rgb(198, 116, 0) 100%);
+}
+.wrapper #navbar {
+  text-decoration: none;
+}
+.wrapper #whatsapp {
+  color: green;
+  position: fixed;
+  bottom: 50px;
+  right: 25px;
 }
 .wrapper #footer {
   border-top: 5px solid #2e1f27;
